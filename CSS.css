@@ -1,0 +1,100 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+	float: left;
+}
+body{
+	background-color: gray;
+}
+div{
+	background-color: snow;
+	border: 1px solid snow;
+	border-radius: 15px;
+	height: auto;
+	width: 750px;
+	margin: -1px auto;
+	padding: 15px 10px;
+}
+h1, nav{
+	padding-top: 55px;
+}
+.head{
+	height: 160px;
+}
+.main{
+	clear: both;
+	text-align: justify;
+	
+}
+.maineMenu ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+.maineMenu li:hover ul{
+	display: block;
+}
+.maineMenu, .maineMenu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.maineMenu{ 
+	height: 30px;
+}
+.maineMenu li{
+	float: left;
+	position: relative;
+	padding: 1px 3px;
+}
+.maineMenu ul li{ 
+	float: none;
+}
+.subMenu{
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: snow;
+}
+.foot{
+	text-align: center;
+}
+.lang{
+	margin-left: 40px;
+}
+.lang dd{
+	margin-left: 40px;
+}
+aside{
+	float: right;
+	padding: 5px;
+    width: 242px;
+	background-color: lightgray;
+	border-radius:15px;
+	margin: 1px 2px 2px 5px;
+	text-align: justify;
+	margin-top: 30px;
+}
+.h2{
+	padding: 1px;
+}
+table{
+	border:1px solid snow;
+	width: 60px;
+	height: 100px;
+	margin: 2px auto;
+}
+td{
+	border: 1px solid snow;
+	height: 40px;
+	width: 40px;
+}
+button{
+	height: 100%;
+	width: 100%
+}
+td input{
+	width: 318px;
+}
